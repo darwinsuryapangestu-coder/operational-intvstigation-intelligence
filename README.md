@@ -1,96 +1,166 @@
-# operational-investigation-intelligence
+# operational-investigation-intelligence  
 By: Darwin Surya Pangestu
 
-Operational experts often spend days or even weeks investigating industrial events before they can provide a trusted explanation and recommendation.
-The challenge is not data availability.
-The challenge is transforming historical operational data into defensible reasoning.
+---
 
-Problem Statement
+## Overview
+
+Operational experts in industrial environments often spend days or even weeks investigating events before they can produce a trusted explanation and recommendation.
+
+The core challenge is not data availability.
+
+The core challenge is:
+
+> transforming historical operational data into defensible reasoning.
+
+---
+
+## Problem Statement
+
 When stakeholders ask:
+
+> Why is Motor A experiencing high temperature?
+
+Engineers typically perform:
+
+1. Review historical trends (PI System)
+2. Analyze operational events (DCS / alarms)
+3. Correlate maintenance records (SAP / CMMS)
+4. Generate hypotheses
+5. Validate evidence
+6. Construct reasoning
+7. Produce recommendation
+
+This process can take days or weeks.
+
+---
+
+## Domain Context (Confidential)
+
+All operational environments are NDA-bound.
+
+- Oil & Gas Operations (Upstream / Process Environment)
+- Industrial Asset Monitoring & Reliability Systems
+- Operational Investigation Workflows
+- Cross-system data environments (PI / SAP / DCS / CMMS)
+
+---
+
+## Core Work
+
+### Operational Investigation
+- Root cause analysis of equipment anomalies
+- Multi-system correlation across industrial data sources
+- Hypothesis-driven investigation cycles
+
+### Evidence-Based Reasoning
+- Building causal chains from operational history
+- Eliminating competing hypotheses using evidence
+- Producing defensible engineering explanations
+
+### Decision Support Framing
+- Translating technical findings into operational recommendations
+- Connecting equipment behavior → production impact → risk exposure
+- Supporting time-critical decision-making
+
+---
+
+## Investigation Workflow
+
+Typical Question:
 Why is Motor A experiencing high temperature?
-Engineers typically need to:
-A. Review historical trends
-B. Analyze operational events
-C. Correlate maintenance records
-D. Generate hypotheses
-E. Validate evidence
-F. Construct reasoning
-G. Produce recommendations
-H.This process can take days or weeks.
-🏭 Domain Conntext(Confidential)
-A. Oil & Gas Operations (Upstream / Process Environment)
-B. Industrial Asset Monitoring & Reliability Systems
-C. Operational Investigation Workflows
-D. Cross-system data environments (PI / SAP / DCS / CMMS)
-E. All client environments are confidential (NDA-bound)
 
-🔬 Core Work
-1. Operational Investigation
-A. Root cause analysis of equipment anomalies (e.g., temperature, vibration, trips)
-B. Multi-system correlation (PI trends, maintenance history, operational events)
-C. Hypothesis-driven investigation cycles
-2. Evidence-Based Reasoning
-A. Building structured causal chains from raw operational history
-B. Eliminating competing failure hypotheses using system evidence
-C. Producing defensible explanations for stakeholders (engineering → management)
-3. Decision Support Framing
-A. Translating technical findings into operational recommendations
-B. Connecting equipment behavior → production impact → risk exposure
-C. Supporting time-critical decision-making processes
+1. Retrieve operational history (PI System)
+2. Identify abnormal trends or deviations
+3. Correlate maintenance records (SAP / CMMS)
+4. Analyze operational events (DCS / alarms)
+5. Generate competing hypotheses
+6. Validate hypotheses against evidence
+7. Construct reasoning narrative
+8. Produce recommendation draft
 
-⚙️ Investigation Workflow Pattern
-Typical Query:
-“Why is Motor A experiencing high temperature?”
-Workflow:
-1. Retrieve operational history (PI System trends)
-2. Identify abnormal patterns / deviations
-3. Cross-check maintenance & failure records (SAP)
-Correlate operational events (DCS / alarms)
-4. Generate competing hypotheses
-5.Validate against evidence
-6. Construct reasoning narrative
-7.Produce recommendation draft
+---
 
-📊 Value Delivered
-A. Reduction of investigation cycle time (days/weeks → hours target)
-B. Faster time-to-first-hypothesis in operational incidents
-C. Reduced manual cross-system analysis workload
-D. Improved consistency of engineering reasoning outputs
+## Value Delivered
 
-🧩 Philosophy
+- Reduction of investigation cycle time (days/weeks → hours target)
+- Faster time-to-first-hypothesis in operational incidents
+- Reduced manual cross-system analysis workload
+- Improved consistency of engineering reasoning outputs
+
+---
+
+## Philosophy
+
 Industrial systems already generate sufficient data.
+
 The limiting factor is not visibility.
+
 The limiting factor is:
-the time required to convert operational history into trusted explanations under uncertainty.
 
-🛠 Tools & Environment
-A. PI System (historical & real-time trends)
-B. SAP PM / CMMS
-C. DCS (process control systems)
-D. APMS / reliability monitoring systems
-E. Engineering analysis workflows
+> the time required to convert operational history into trusted explanations under uncertainty.
 
-📌 Positioning
-Not a reporting role.
-Not a dashboard builder.
-Not a data entry / visualization role.
-Focused on:
-operational reasoning, investigation acceleration, and reliability intelligence.
+---
 
-📬 Engagement Scope
-Suitable for:
-A. Operational Intelligence initiatives
-B. Reliability engineering analytics
-C. Industrial investigation automation (AI-assisted RCA)
-D. Decision support system development
+## Tools & Environment
 
-⚔️ Note
+- PI System
+- SAP PM / CMMS
+- DCS (process control systems)
+- APMS / reliability monitoring systems
+- Engineering analysis workflows
+
+---
+
+## Positioning
+
+This is not:
+- a reporting role
+- a dashboard building role
+- a data visualization role
+
+This is focused on:
+
+> operational reasoning, investigation acceleration, and reliability intelligence.
+
+---
+
+## Engagement Scope
+
+- Operational Intelligence initiatives
+- Reliability engineering analytics
+- Industrial investigation automation (AI-assisted RCA)
+- Decision support system development
+
+---
+
+## Key Insight
+
+Industrial systems already produce enough data.
+
+The bottleneck is not access to information.
+
+The bottleneck is:
+
+> converting fragmented operational signals into trusted, defensible explanations fast enough for decision-making.
+
+---
+
+## Goal
+
+Reduce time from:
+
+Question → Trusted Answer
+
+---
+
+## Closing
+
 This work sits at the intersection of:
-A. engineering judgment
-B. operational complexity
-and time-critical C.decision-making
-The goal is simple:
-reduce time from question → trusted answer in industrial operations.
-Translating technical findings into operational recommendations
-Connecting equipment behavior → production impact → risk exposure
-Supporting time-critical decision-making processes
+- engineering judgment
+- operational complexity
+- time-critical decision-making
+
+The objective is:
+
+> make industrial investigation faster, more consistent, and more defensible.
